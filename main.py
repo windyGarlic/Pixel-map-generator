@@ -1,7 +1,7 @@
 import pygame
 import sys
 import random
-from start_menu import SettingsManager
+from start import SettingsManager
 
 settings_manager = SettingsManager("settings.json")
 settings_manager.load_settings()
